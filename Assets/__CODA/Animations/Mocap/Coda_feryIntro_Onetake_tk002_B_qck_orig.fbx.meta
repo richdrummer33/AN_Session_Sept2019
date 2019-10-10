@@ -1,0 +1,1111 @@
+fileFormatVersion: 2
+guid: 575f705c8284f484f8f7c00a62cc07e5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Ferryman_Viewer_Cam
+    100004: Ferryman_Viewer_Cam:endBone
+    100006: Ferryman_Viewer_Cam:Reference
+    100008: Ferryman_Viewer_Cam:root
+    100010: Matt_Wright_2019_04_19_v03
+    100012: Matt_Wright_2019_04_19_v03:Head
+    100014: Matt_Wright_2019_04_19_v03:HeadEnd
+    100016: Matt_Wright_2019_04_19_v03:Hips
+    100018: Matt_Wright_2019_04_19_v03:LeftArm
+    100020: Matt_Wright_2019_04_19_v03:LeftFoot
+    100022: Matt_Wright_2019_04_19_v03:LeftForeArm
+    100024: Matt_Wright_2019_04_19_v03:LeftForeFoot
+    100026: Matt_Wright_2019_04_19_v03:LeftHand
+    100028: Matt_Wright_2019_04_19_v03:LeftHandIndex1
+    100030: Matt_Wright_2019_04_19_v03:LeftHandIndex2
+    100032: Matt_Wright_2019_04_19_v03:LeftHandIndex3
+    100034: Matt_Wright_2019_04_19_v03:LeftHandIndex4
+    100036: Matt_Wright_2019_04_19_v03:LeftHandMiddle1
+    100038: Matt_Wright_2019_04_19_v03:LeftHandMiddle2
+    100040: Matt_Wright_2019_04_19_v03:LeftHandMiddle3
+    100042: Matt_Wright_2019_04_19_v03:LeftHandMiddle4
+    100044: Matt_Wright_2019_04_19_v03:LeftHandPinky1
+    100046: Matt_Wright_2019_04_19_v03:LeftHandPinky2
+    100048: Matt_Wright_2019_04_19_v03:LeftHandPinky3
+    100050: Matt_Wright_2019_04_19_v03:LeftHandPinky4
+    100052: Matt_Wright_2019_04_19_v03:LeftHandRing1
+    100054: Matt_Wright_2019_04_19_v03:LeftHandRing2
+    100056: Matt_Wright_2019_04_19_v03:LeftHandRing3
+    100058: Matt_Wright_2019_04_19_v03:LeftHandRing4
+    100060: Matt_Wright_2019_04_19_v03:LeftHandThumb1
+    100062: Matt_Wright_2019_04_19_v03:LeftHandThumb2
+    100064: Matt_Wright_2019_04_19_v03:LeftHandThumb3
+    100066: Matt_Wright_2019_04_19_v03:LeftHandThumb4
+    100068: Matt_Wright_2019_04_19_v03:LeftLeg
+    100070: Matt_Wright_2019_04_19_v03:LeftShoulder
+    100072: Matt_Wright_2019_04_19_v03:LeftToeBase
+    100074: Matt_Wright_2019_04_19_v03:LeftToeBaseEnd
+    100076: Matt_Wright_2019_04_19_v03:LeftUpLeg
+    100078: Matt_Wright_2019_04_19_v03:Neck
+    100080: Matt_Wright_2019_04_19_v03:Neck1
+    100082: Matt_Wright_2019_04_19_v03:Reference
+    100084: Matt_Wright_2019_04_19_v03:RightArm
+    100086: Matt_Wright_2019_04_19_v03:RightFoot
+    100088: Matt_Wright_2019_04_19_v03:RightForeArm
+    100090: Matt_Wright_2019_04_19_v03:RightForeFoot
+    100092: Matt_Wright_2019_04_19_v03:RightHand
+    100094: Matt_Wright_2019_04_19_v03:RightHandIndex1
+    100096: Matt_Wright_2019_04_19_v03:RightHandIndex2
+    100098: Matt_Wright_2019_04_19_v03:RightHandIndex3
+    100100: Matt_Wright_2019_04_19_v03:RightHandIndex4
+    100102: Matt_Wright_2019_04_19_v03:RightHandMiddle1
+    100104: Matt_Wright_2019_04_19_v03:RightHandMiddle2
+    100106: Matt_Wright_2019_04_19_v03:RightHandMiddle3
+    100108: Matt_Wright_2019_04_19_v03:RightHandMiddle4
+    100110: Matt_Wright_2019_04_19_v03:RightHandPinky1
+    100112: Matt_Wright_2019_04_19_v03:RightHandPinky2
+    100114: Matt_Wright_2019_04_19_v03:RightHandPinky3
+    100116: Matt_Wright_2019_04_19_v03:RightHandPinky4
+    100118: Matt_Wright_2019_04_19_v03:RightHandRing1
+    100120: Matt_Wright_2019_04_19_v03:RightHandRing2
+    100122: Matt_Wright_2019_04_19_v03:RightHandRing3
+    100124: Matt_Wright_2019_04_19_v03:RightHandRing4
+    100126: Matt_Wright_2019_04_19_v03:RightHandThumb1
+    100128: Matt_Wright_2019_04_19_v03:RightHandThumb2
+    100130: Matt_Wright_2019_04_19_v03:RightHandThumb3
+    100132: Matt_Wright_2019_04_19_v03:RightHandThumb4
+    100134: Matt_Wright_2019_04_19_v03:RightLeg
+    100136: Matt_Wright_2019_04_19_v03:RightShoulder
+    100138: Matt_Wright_2019_04_19_v03:RightToeBase
+    100140: Matt_Wright_2019_04_19_v03:RightToeBaseEnd
+    100142: Matt_Wright_2019_04_19_v03:RightUpLeg
+    100144: Matt_Wright_2019_04_19_v03:Spine
+    100146: Matt_Wright_2019_04_19_v03:Spine1
+    100148: Matt_Wright_2019_04_19_v03:Spine2
+    100150: Matt_Wright_2019_04_19_v03:Spine3
+    100152: prop_VCAM01
+    100154: prop_VCAM01:endBone
+    100156: prop_VCAM01:Reference
+    100158: prop_VCAM01:root
+    400000: //RootNode
+    400002: Ferryman_Viewer_Cam
+    400004: Ferryman_Viewer_Cam:endBone
+    400006: Ferryman_Viewer_Cam:Reference
+    400008: Ferryman_Viewer_Cam:root
+    400010: Matt_Wright_2019_04_19_v03
+    400012: Matt_Wright_2019_04_19_v03:Head
+    400014: Matt_Wright_2019_04_19_v03:HeadEnd
+    400016: Matt_Wright_2019_04_19_v03:Hips
+    400018: Matt_Wright_2019_04_19_v03:LeftArm
+    400020: Matt_Wright_2019_04_19_v03:LeftFoot
+    400022: Matt_Wright_2019_04_19_v03:LeftForeArm
+    400024: Matt_Wright_2019_04_19_v03:LeftForeFoot
+    400026: Matt_Wright_2019_04_19_v03:LeftHand
+    400028: Matt_Wright_2019_04_19_v03:LeftHandIndex1
+    400030: Matt_Wright_2019_04_19_v03:LeftHandIndex2
+    400032: Matt_Wright_2019_04_19_v03:LeftHandIndex3
+    400034: Matt_Wright_2019_04_19_v03:LeftHandIndex4
+    400036: Matt_Wright_2019_04_19_v03:LeftHandMiddle1
+    400038: Matt_Wright_2019_04_19_v03:LeftHandMiddle2
+    400040: Matt_Wright_2019_04_19_v03:LeftHandMiddle3
+    400042: Matt_Wright_2019_04_19_v03:LeftHandMiddle4
+    400044: Matt_Wright_2019_04_19_v03:LeftHandPinky1
+    400046: Matt_Wright_2019_04_19_v03:LeftHandPinky2
+    400048: Matt_Wright_2019_04_19_v03:LeftHandPinky3
+    400050: Matt_Wright_2019_04_19_v03:LeftHandPinky4
+    400052: Matt_Wright_2019_04_19_v03:LeftHandRing1
+    400054: Matt_Wright_2019_04_19_v03:LeftHandRing2
+    400056: Matt_Wright_2019_04_19_v03:LeftHandRing3
+    400058: Matt_Wright_2019_04_19_v03:LeftHandRing4
+    400060: Matt_Wright_2019_04_19_v03:LeftHandThumb1
+    400062: Matt_Wright_2019_04_19_v03:LeftHandThumb2
+    400064: Matt_Wright_2019_04_19_v03:LeftHandThumb3
+    400066: Matt_Wright_2019_04_19_v03:LeftHandThumb4
+    400068: Matt_Wright_2019_04_19_v03:LeftLeg
+    400070: Matt_Wright_2019_04_19_v03:LeftShoulder
+    400072: Matt_Wright_2019_04_19_v03:LeftToeBase
+    400074: Matt_Wright_2019_04_19_v03:LeftToeBaseEnd
+    400076: Matt_Wright_2019_04_19_v03:LeftUpLeg
+    400078: Matt_Wright_2019_04_19_v03:Neck
+    400080: Matt_Wright_2019_04_19_v03:Neck1
+    400082: Matt_Wright_2019_04_19_v03:Reference
+    400084: Matt_Wright_2019_04_19_v03:RightArm
+    400086: Matt_Wright_2019_04_19_v03:RightFoot
+    400088: Matt_Wright_2019_04_19_v03:RightForeArm
+    400090: Matt_Wright_2019_04_19_v03:RightForeFoot
+    400092: Matt_Wright_2019_04_19_v03:RightHand
+    400094: Matt_Wright_2019_04_19_v03:RightHandIndex1
+    400096: Matt_Wright_2019_04_19_v03:RightHandIndex2
+    400098: Matt_Wright_2019_04_19_v03:RightHandIndex3
+    400100: Matt_Wright_2019_04_19_v03:RightHandIndex4
+    400102: Matt_Wright_2019_04_19_v03:RightHandMiddle1
+    400104: Matt_Wright_2019_04_19_v03:RightHandMiddle2
+    400106: Matt_Wright_2019_04_19_v03:RightHandMiddle3
+    400108: Matt_Wright_2019_04_19_v03:RightHandMiddle4
+    400110: Matt_Wright_2019_04_19_v03:RightHandPinky1
+    400112: Matt_Wright_2019_04_19_v03:RightHandPinky2
+    400114: Matt_Wright_2019_04_19_v03:RightHandPinky3
+    400116: Matt_Wright_2019_04_19_v03:RightHandPinky4
+    400118: Matt_Wright_2019_04_19_v03:RightHandRing1
+    400120: Matt_Wright_2019_04_19_v03:RightHandRing2
+    400122: Matt_Wright_2019_04_19_v03:RightHandRing3
+    400124: Matt_Wright_2019_04_19_v03:RightHandRing4
+    400126: Matt_Wright_2019_04_19_v03:RightHandThumb1
+    400128: Matt_Wright_2019_04_19_v03:RightHandThumb2
+    400130: Matt_Wright_2019_04_19_v03:RightHandThumb3
+    400132: Matt_Wright_2019_04_19_v03:RightHandThumb4
+    400134: Matt_Wright_2019_04_19_v03:RightLeg
+    400136: Matt_Wright_2019_04_19_v03:RightShoulder
+    400138: Matt_Wright_2019_04_19_v03:RightToeBase
+    400140: Matt_Wright_2019_04_19_v03:RightToeBaseEnd
+    400142: Matt_Wright_2019_04_19_v03:RightUpLeg
+    400144: Matt_Wright_2019_04_19_v03:Spine
+    400146: Matt_Wright_2019_04_19_v03:Spine1
+    400148: Matt_Wright_2019_04_19_v03:Spine2
+    400150: Matt_Wright_2019_04_19_v03:Spine3
+    400152: prop_VCAM01
+    400154: prop_VCAM01:endBone
+    400156: prop_VCAM01:Reference
+    400158: prop_VCAM01:root
+    7400000: Coda_feryIntro_Onetake_tk002_filter
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Coda_feryIntro_Onetake_tk002_filter' has import
+      animation warnings that might lower retargeting quality:\n\t'Matt_Wright_2019_04_19_v03:Spine1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Matt_Wright_2019_04_19_v03:Neck1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Matt_Wright_2019_04_19_v03:RightHandThumb3'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Matt_Wright_2019_04_19_v03:RightHandIndex3'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Matt_Wright_2019_04_19_v03:RightHandMiddle3'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Matt_Wright_2019_04_19_v03:RightHandRing3'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Matt_Wright_2019_04_19_v03:RightHandPinky3'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Matt_Wright_2019_04_19_v03:LeftHandThumb3'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Matt_Wright_2019_04_19_v03:LeftHandIndex3'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Matt_Wright_2019_04_19_v03:LeftHandMiddle3'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Matt_Wright_2019_04_19_v03:LeftHandRing3'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Matt_Wright_2019_04_19_v03:LeftHandPinky3'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Coda_feryIntro_Onetake_tk002_filter
+      takeName: Coda_feryIntro_Onetake_tk002_filter
+      firstFrame: 4981108
+      lastFrame: 5011251
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Matt_Wright_2019_04_19_v03:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:Spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:Spine3
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftHandIndex4
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftHandMiddle4
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftHandRing4
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftHandPinky4
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:LeftHandThumb4
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightHandIndex4
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightHandMiddle4
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightHandRing4
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightHandPinky4
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Matt_Wright_2019_04_19_v03:RightHandThumb4
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Coda_feryIntro_Onetake_tk002_B_qck_orig(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_Viewer_Cam
+      parentName: Coda_feryIntro_Onetake_tk002_B_qck_orig(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_Viewer_Cam:Reference
+      parentName: Ferryman_Viewer_Cam
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_Viewer_Cam:root
+      parentName: Ferryman_Viewer_Cam:Reference
+      position: {x: -0.080818795, y: -4.0202055, z: 1.3747709}
+      rotation: {x: 0.99965453, y: -0.024576621, z: 0.008988317, w: -0.002464241}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_Viewer_Cam:endBone
+      parentName: Ferryman_Viewer_Cam:root
+      position: {x: -0.099999994, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03
+      parentName: Coda_feryIntro_Onetake_tk002_B_qck_orig(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:Reference
+      parentName: Matt_Wright_2019_04_19_v03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:Hips
+      parentName: Matt_Wright_2019_04_19_v03:Reference
+      position: {x: -0.0000000037252903, y: -0.00000011920929, z: 0.9615831}
+      rotation: {x: 0.65680915, y: -0.0055792085, z: -0.0047791735, w: 0.75402117}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftUpLeg
+      parentName: Matt_Wright_2019_04_19_v03:Hips
+      position: {x: -0.087305464, y: 0, z: 0}
+      rotation: {x: 0.16307206, y: -0.068056025, z: -0.048307814, w: 0.98307794}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftLeg
+      parentName: Matt_Wright_2019_04_19_v03:LeftUpLeg
+      position: {x: -0, y: -0.43770668, z: 0}
+      rotation: {x: 0.044974875, y: -0, z: -0, w: 0.99898815}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftFoot
+      parentName: Matt_Wright_2019_04_19_v03:LeftLeg
+      position: {x: -0, y: -0.4714026, z: 0}
+      rotation: {x: -0.1265181, y: -0.02302313, z: 0.014858301, w: 0.9915858}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftForeFoot
+      parentName: Matt_Wright_2019_04_19_v03:LeftFoot
+      position: {x: -0, y: -0.046905458, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftToeBase
+      parentName: Matt_Wright_2019_04_19_v03:LeftForeFoot
+      position: {x: -0, y: 0, z: 0.18369667}
+      rotation: {x: -0.07794355, y: 0, z: -0, w: 0.9969578}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftToeBaseEnd
+      parentName: Matt_Wright_2019_04_19_v03:LeftToeBase
+      position: {x: -0, y: 0, z: 0.062486548}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightUpLeg
+      parentName: Matt_Wright_2019_04_19_v03:Hips
+      position: {x: 0.087305464, y: 0, z: 0}
+      rotation: {x: 0.1336601, y: 0.08178499, z: -0.01669793, w: 0.9875057}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightLeg
+      parentName: Matt_Wright_2019_04_19_v03:RightUpLeg
+      position: {x: -0, y: -0.43770668, z: 0}
+      rotation: {x: 0.10076585, y: -0, z: -0, w: 0.9949102}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightFoot
+      parentName: Matt_Wright_2019_04_19_v03:RightLeg
+      position: {x: -0, y: -0.4714026, z: 0}
+      rotation: {x: -0.12983419, y: 0.08686099, z: -0.012118887, w: 0.98764944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightForeFoot
+      parentName: Matt_Wright_2019_04_19_v03:RightFoot
+      position: {x: -0, y: -0.046905458, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightToeBase
+      parentName: Matt_Wright_2019_04_19_v03:RightForeFoot
+      position: {x: -0, y: 0, z: 0.18369667}
+      rotation: {x: -0.09796995, y: 0, z: -0, w: 0.99518937}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightToeBaseEnd
+      parentName: Matt_Wright_2019_04_19_v03:RightToeBase
+      position: {x: -0, y: 0, z: 0.06411745}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:Spine
+      parentName: Matt_Wright_2019_04_19_v03:Hips
+      position: {x: -0, y: 0.111749046, z: -0.024354827}
+      rotation: {x: -0.012137461, y: -0.000922869, z: 0.0029162571, w: 0.9999217}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:Spine1
+      parentName: Matt_Wright_2019_04_19_v03:Spine
+      position: {x: -0, y: 0.115611605, z: 0}
+      rotation: {x: 0.045143243, y: -0.00050565193, z: -0.00149287, w: 0.99897933}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:Spine2
+      parentName: Matt_Wright_2019_04_19_v03:Spine1
+      position: {x: -0, y: 0.115611605, z: 0}
+      rotation: {x: -0.010513104, y: -0.019766044, z: 0.0013389041, w: 0.99974847}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:Spine3
+      parentName: Matt_Wright_2019_04_19_v03:Spine2
+      position: {x: -0, y: 0.115611605, z: 0}
+      rotation: {x: -0.0833166, y: -0.006541156, z: -0.011448729, w: 0.9964359}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftShoulder
+      parentName: Matt_Wright_2019_04_19_v03:Spine3
+      position: {x: -0, y: 0.106173925, z: 0.052709177}
+      rotation: {x: -0.05765342, y: -0.06952262, z: 0.6357301, w: 0.76660943}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftArm
+      parentName: Matt_Wright_2019_04_19_v03:LeftShoulder
+      position: {x: -0, y: 0.20089775, z: 0}
+      rotation: {x: 0.050466232, y: 0.31115583, z: 0.15289165, w: 0.93662125}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftForeArm
+      parentName: Matt_Wright_2019_04_19_v03:LeftArm
+      position: {x: -0, y: 0.32515895, z: 0}
+      rotation: {x: 0.06479327, y: -0.30309236, z: -0.022759313, w: 0.95048344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftHand
+      parentName: Matt_Wright_2019_04_19_v03:LeftForeArm
+      position: {x: -0, y: 0.26403257, z: 0}
+      rotation: {x: -0.03889952, y: -0.02467893, z: 0.06293323, w: 0.996954}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftHandIndex1
+      parentName: Matt_Wright_2019_04_19_v03:LeftHand
+      position: {x: -0, y: 0.103468664, z: 0.02089271}
+      rotation: {x: -0.0024186622, y: 0.00071745145, z: -0.0723765, w: 0.9973742}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftHandIndex2
+      parentName: Matt_Wright_2019_04_19_v03:LeftHandIndex1
+      position: {x: -0, y: 0.039795637, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftHandIndex3
+      parentName: Matt_Wright_2019_04_19_v03:LeftHandIndex2
+      position: {x: -0, y: 0.021887602, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftHandIndex4
+      parentName: Matt_Wright_2019_04_19_v03:LeftHandIndex3
+      position: {x: -0, y: 0.015918255, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftHandMiddle1
+      parentName: Matt_Wright_2019_04_19_v03:LeftHand
+      position: {x: -0, y: 0.103468664, z: -0.00066326064}
+      rotation: {x: -0.002495269, y: 0.0008083783, z: -0.07104083, w: 0.99747}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftHandMiddle2
+      parentName: Matt_Wright_2019_04_19_v03:LeftHandMiddle1
+      position: {x: -0, y: 0.04477009, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftHandMiddle3
+      parentName: Matt_Wright_2019_04_19_v03:LeftHandMiddle2
+      position: {x: -0, y: 0.025867166, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftHandMiddle4
+      parentName: Matt_Wright_2019_04_19_v03:LeftHandMiddle3
+      position: {x: -0, y: 0.016913146, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftHandPinky1
+      parentName: Matt_Wright_2019_04_19_v03:LeftHand
+      position: {x: -0, y: 0.080586165, z: -0.043775205}
+      rotation: {x: -0.0020374127, y: 0.0004329978, z: -0.07663157, w: 0.9970574}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftHandPinky2
+      parentName: Matt_Wright_2019_04_19_v03:LeftHandPinky1
+      position: {x: -0, y: 0.0328314, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftHandPinky3
+      parentName: Matt_Wright_2019_04_19_v03:LeftHandPinky2
+      position: {x: -0, y: 0.017908037, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftHandPinky4
+      parentName: Matt_Wright_2019_04_19_v03:LeftHandPinky3
+      position: {x: -0, y: 0.015918255, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftHandRing1
+      parentName: Matt_Wright_2019_04_19_v03:LeftHand
+      position: {x: -0, y: 0.09202741, z: -0.022219231}
+      rotation: {x: -0.0022388052, y: 0.00055869465, z: -0.07474635, w: 0.9972}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftHandRing2
+      parentName: Matt_Wright_2019_04_19_v03:LeftHandRing1
+      position: {x: -0, y: 0.040790528, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftHandRing3
+      parentName: Matt_Wright_2019_04_19_v03:LeftHandRing2
+      position: {x: -0, y: 0.025867166, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftHandRing4
+      parentName: Matt_Wright_2019_04_19_v03:LeftHandRing3
+      position: {x: -0, y: 0.016913146, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftHandThumb1
+      parentName: Matt_Wright_2019_04_19_v03:LeftHand
+      position: {x: -0.049559943, y: 0.038800746, z: 0.028851837}
+      rotation: {x: 0.32737175, y: -0.011944095, z: 0.017097237, w: 0.9446655}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftHandThumb2
+      parentName: Matt_Wright_2019_04_19_v03:LeftHandThumb1
+      position: {x: -0, y: 0.0328314, z: 0}
+      rotation: {x: 0.038229708, y: -0.0000005085018, z: -0.00000029616038, w: 0.99926895}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftHandThumb3
+      parentName: Matt_Wright_2019_04_19_v03:LeftHandThumb2
+      position: {x: -0, y: 0.017908037, z: 0}
+      rotation: {x: -0.14930779, y: 0, z: -0, w: 0.9887908}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:LeftHandThumb4
+      parentName: Matt_Wright_2019_04_19_v03:LeftHandThumb3
+      position: {x: -0, y: 0.016, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:Neck
+      parentName: Matt_Wright_2019_04_19_v03:Spine3
+      position: {x: -0, y: 0.1486435, z: 0.014864349}
+      rotation: {x: -0.08613015, y: -0.0021324947, z: -0.024284309, w: 0.9959856}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:Neck1
+      parentName: Matt_Wright_2019_04_19_v03:Neck
+      position: {x: -0, y: 0.054316632, z: 0}
+      rotation: {x: 0.1675407, y: -0.013478779, z: 0.01870356, w: 0.9855956}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:Head
+      parentName: Matt_Wright_2019_04_19_v03:Neck1
+      position: {x: -0, y: 0.054316632, z: 0}
+      rotation: {x: 0.044099953, y: -0.0017447035, z: 0.012451161, w: 0.99894804}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:HeadEnd
+      parentName: Matt_Wright_2019_04_19_v03:Head
+      position: {x: -0, y: 0.09728078, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightShoulder
+      parentName: Matt_Wright_2019_04_19_v03:Spine3
+      position: {x: -0, y: 0.106173925, z: 0.052709177}
+      rotation: {x: -0.110617585, y: 0.13765873, z: -0.6165426, w: 0.7672608}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightArm
+      parentName: Matt_Wright_2019_04_19_v03:RightShoulder
+      position: {x: -0, y: 0.20089775, z: 0}
+      rotation: {x: 0.13305892, y: -0.23234507, z: -0.15577166, w: 0.95081353}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightForeArm
+      parentName: Matt_Wright_2019_04_19_v03:RightArm
+      position: {x: -0, y: 0.32515895, z: 0}
+      rotation: {x: 0.0193536, y: 0.2333824, z: 0.034555443, w: 0.9715781}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightHand
+      parentName: Matt_Wright_2019_04_19_v03:RightForeArm
+      position: {x: -0, y: 0.26403257, z: 0}
+      rotation: {x: -0.11401609, y: 0.0075501166, z: -0.05492743, w: 0.9919306}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightHandIndex1
+      parentName: Matt_Wright_2019_04_19_v03:RightHand
+      position: {x: -0, y: 0.103468664, z: 0.02089271}
+      rotation: {x: 0, y: 0, z: 0.056752007, w: 0.9983883}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightHandIndex2
+      parentName: Matt_Wright_2019_04_19_v03:RightHandIndex1
+      position: {x: -0, y: 0.039795637, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightHandIndex3
+      parentName: Matt_Wright_2019_04_19_v03:RightHandIndex2
+      position: {x: -0, y: 0.021887602, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightHandIndex4
+      parentName: Matt_Wright_2019_04_19_v03:RightHandIndex3
+      position: {x: -0, y: 0.015918255, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightHandMiddle1
+      parentName: Matt_Wright_2019_04_19_v03:RightHand
+      position: {x: -0, y: 0.103468664, z: -0.00066326064}
+      rotation: {x: 0, y: 0, z: 0.05999183, w: 0.99819887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightHandMiddle2
+      parentName: Matt_Wright_2019_04_19_v03:RightHandMiddle1
+      position: {x: -0, y: 0.04477009, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightHandMiddle3
+      parentName: Matt_Wright_2019_04_19_v03:RightHandMiddle2
+      position: {x: -0, y: 0.025867166, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightHandMiddle4
+      parentName: Matt_Wright_2019_04_19_v03:RightHandMiddle3
+      position: {x: -0, y: 0.016913146, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightHandPinky1
+      parentName: Matt_Wright_2019_04_19_v03:RightHand
+      position: {x: -0, y: 0.080586165, z: -0.043775205}
+      rotation: {x: 0, y: 0, z: 0.012284647, w: 0.99992454}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightHandPinky2
+      parentName: Matt_Wright_2019_04_19_v03:RightHandPinky1
+      position: {x: -0, y: 0.0328314, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightHandPinky3
+      parentName: Matt_Wright_2019_04_19_v03:RightHandPinky2
+      position: {x: -0, y: 0.017908037, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightHandPinky4
+      parentName: Matt_Wright_2019_04_19_v03:RightHandPinky3
+      position: {x: -0, y: 0.015918255, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightHandRing1
+      parentName: Matt_Wright_2019_04_19_v03:RightHand
+      position: {x: -0, y: 0.09202741, z: -0.022219231}
+      rotation: {x: 0, y: 0, z: 0.03408872, w: 0.9994188}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightHandRing2
+      parentName: Matt_Wright_2019_04_19_v03:RightHandRing1
+      position: {x: -0, y: 0.040790528, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightHandRing3
+      parentName: Matt_Wright_2019_04_19_v03:RightHandRing2
+      position: {x: -0, y: 0.025867166, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightHandRing4
+      parentName: Matt_Wright_2019_04_19_v03:RightHandRing3
+      position: {x: -0, y: 0.016913146, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightHandThumb1
+      parentName: Matt_Wright_2019_04_19_v03:RightHand
+      position: {x: 0.049559943, y: 0.038800746, z: 0.028851837}
+      rotation: {x: 0.36011946, y: 0.0046379035, z: -0.0010746245, w: 0.93289405}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightHandThumb2
+      parentName: Matt_Wright_2019_04_19_v03:RightHandThumb1
+      position: {x: -0, y: 0.0328314, z: 0}
+      rotation: {x: -0.013455323, y: 0.0000000740401, z: -0.00000055565, w: 0.9999095}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightHandThumb3
+      parentName: Matt_Wright_2019_04_19_v03:RightHandThumb2
+      position: {x: -0, y: 0.017908037, z: 0}
+      rotation: {x: -0.055439457, y: 0, z: -0, w: 0.9984621}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Matt_Wright_2019_04_19_v03:RightHandThumb4
+      parentName: Matt_Wright_2019_04_19_v03:RightHandThumb3
+      position: {x: -0, y: 0.015918255, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_VCAM01
+      parentName: Coda_feryIntro_Onetake_tk002_B_qck_orig(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_VCAM01:Reference
+      parentName: prop_VCAM01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_VCAM01:root
+      parentName: prop_VCAM01:Reference
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: prop_VCAM01:endBone
+      parentName: prop_VCAM01:root
+      position: {x: -0.099999994, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

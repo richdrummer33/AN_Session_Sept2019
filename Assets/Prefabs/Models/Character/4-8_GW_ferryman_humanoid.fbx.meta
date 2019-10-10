@@ -1,0 +1,1404 @@
+fileFormatVersion: 2
+guid: 1062a3d36c3aa2245ae25def6ef9653f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Ferryman_adamsApple
+    100004: Ferryman_ball_L
+    100006: Ferryman_ball_R
+    100008: Ferryman_brow_A_L
+    100010: Ferryman_brow_A_R
+    100012: Ferryman_brow_B_L
+    100014: Ferryman_brow_B_R
+    100016: Ferryman_brow_C_L
+    100018: Ferryman_brow_C_R
+    100020: Ferryman_calf_L
+    100022: Ferryman_calf_R
+    100024: Ferryman_calf_twist_01_L
+    100026: Ferryman_calf_twist_01_R
+    100028: Ferryman_cheek_L
+    100030: Ferryman_cheek_R
+    100032: Ferryman_chin
+    100034: Ferryman_clavicle_L
+    100036: Ferryman_clavicle_R
+    100038: Ferryman_ear_01_L
+    100040: Ferryman_ear_01_R
+    100042: Ferryman_ear_02_L
+    100044: Ferryman_ear_02_R
+    100046: Ferryman_ear_03_L
+    100048: Ferryman_ear_03_R
+    100050: Ferryman_eye_L
+    100052: Ferryman_eye_R
+    100054: Ferryman_foot_L
+    100056: Ferryman_foot_R
+    100058: Ferryman_hand_L
+    100060: Ferryman_hand_R
+    100062: Ferryman_hat
+    100064: Ferryman_head
+    100066: Ferryman_index_01_L
+    100068: Ferryman_index_01_R
+    100070: Ferryman_index_02_L
+    100072: Ferryman_index_02_R
+    100074: Ferryman_index_03_L
+    100076: Ferryman_index_03_R
+    100078: Ferryman_innerCheek_L
+    100080: Ferryman_innerCheek_R
+    100082: Ferryman_jaw
+    100084: Ferryman_jawSDK
+    100086: Ferryman_lipCorner_B_L
+    100088: Ferryman_lipCorner_B_R
+    100090: Ferryman_lipCorner_L
+    100092: Ferryman_lipCorner_R
+    100094: Ferryman_lipCorner_T_L
+    100096: Ferryman_lipCorner_T_R
+    100098: Ferryman_lowerarm_L
+    100100: Ferryman_lowerarm_R
+    100102: Ferryman_lowerarm_twist_01_L
+    100104: Ferryman_lowerarm_twist_01_R
+    100106: Ferryman_lowerEyeLid_L
+    100108: Ferryman_lowerEyeLid_R
+    100110: Ferryman_lowerLip
+    100112: Ferryman_lowerLip_B
+    100114: Ferryman_lowerLip_B_L
+    100116: Ferryman_lowerLip_B_R
+    100118: Ferryman_lowerLip_F
+    100120: Ferryman_lowerLip_F_L
+    100122: Ferryman_lowerLip_F_R
+    100124: Ferryman_lowerLip_L
+    100126: Ferryman_lowerLip_R
+    100128: Ferryman_mesh
+    100130: Ferryman_midBrows
+    100132: Ferryman_middle_01_L
+    100134: Ferryman_middle_01_R
+    100136: Ferryman_middle_02_L
+    100138: Ferryman_middle_02_R
+    100140: Ferryman_middle_03_L
+    100142: Ferryman_middle_03_R
+    100144: Ferryman_nasalLabialFold_L
+    100146: Ferryman_nasalLabialFold_R
+    100148: Ferryman_neck_01
+    100150: Ferryman_noseMain
+    100152: Ferryman_nostril_L
+    100154: Ferryman_nostril_R
+    100156: Ferryman_pelvis
+    100158: Ferryman_pinky_01_L
+    100160: Ferryman_pinky_01_R
+    100162: Ferryman_pinky_02_L
+    100164: Ferryman_pinky_02_R
+    100166: Ferryman_pinky_03_L
+    100168: Ferryman_pinky_03_R
+    100170: Ferryman_ring_01_L
+    100172: Ferryman_ring_01_R
+    100174: Ferryman_ring_02_L
+    100176: Ferryman_ring_02_R
+    100178: Ferryman_ring_03_L
+    100180: Ferryman_ring_03_R
+    100182: Ferryman_root
+    100184: Ferryman_skull
+    100186: Ferryman_spine_01
+    100188: Ferryman_spine_02
+    100190: Ferryman_spine_03
+    100192: Ferryman_tail_01
+    100194: Ferryman_tail_02
+    100196: Ferryman_tail_03
+    100198: Ferryman_tail_04
+    100200: Ferryman_tail_05
+    100202: Ferryman_temple_L
+    100204: Ferryman_temple_R
+    100206: Ferryman_thigh_L
+    100208: Ferryman_thigh_R
+    100210: Ferryman_thigh_twist_01_L
+    100212: Ferryman_thigh_twist_01_R
+    100214: Ferryman_thumb_01_L
+    100216: Ferryman_thumb_01_R
+    100218: Ferryman_thumb_02_L
+    100220: Ferryman_thumb_02_R
+    100222: Ferryman_thumb_03_L
+    100224: Ferryman_thumb_03_R
+    100226: Ferryman_underChin
+    100228: Ferryman_upperarm_L
+    100230: Ferryman_upperarm_R
+    100232: Ferryman_upperarm_twist_01_L
+    100234: Ferryman_upperarm_twist_01_R
+    100236: Ferryman_upperCheek_L
+    100238: Ferryman_upperCheek_R
+    100240: Ferryman_upperEyeLid_L
+    100242: Ferryman_upperEyeLid_R
+    100244: Ferryman_upperLip
+    100246: Ferryman_upperLip_B
+    100248: Ferryman_upperLip_B_L
+    100250: Ferryman_upperLip_B_R
+    100252: Ferryman_upperLip_F
+    100254: Ferryman_upperLip_F_L
+    100256: Ferryman_upperLip_F_R
+    100258: Ferryman_upperLip_L
+    100260: Ferryman_upperLip_R
+    400000: //RootNode
+    400002: Ferryman_adamsApple
+    400004: Ferryman_ball_L
+    400006: Ferryman_ball_R
+    400008: Ferryman_brow_A_L
+    400010: Ferryman_brow_A_R
+    400012: Ferryman_brow_B_L
+    400014: Ferryman_brow_B_R
+    400016: Ferryman_brow_C_L
+    400018: Ferryman_brow_C_R
+    400020: Ferryman_calf_L
+    400022: Ferryman_calf_R
+    400024: Ferryman_calf_twist_01_L
+    400026: Ferryman_calf_twist_01_R
+    400028: Ferryman_cheek_L
+    400030: Ferryman_cheek_R
+    400032: Ferryman_chin
+    400034: Ferryman_clavicle_L
+    400036: Ferryman_clavicle_R
+    400038: Ferryman_ear_01_L
+    400040: Ferryman_ear_01_R
+    400042: Ferryman_ear_02_L
+    400044: Ferryman_ear_02_R
+    400046: Ferryman_ear_03_L
+    400048: Ferryman_ear_03_R
+    400050: Ferryman_eye_L
+    400052: Ferryman_eye_R
+    400054: Ferryman_foot_L
+    400056: Ferryman_foot_R
+    400058: Ferryman_hand_L
+    400060: Ferryman_hand_R
+    400062: Ferryman_hat
+    400064: Ferryman_head
+    400066: Ferryman_index_01_L
+    400068: Ferryman_index_01_R
+    400070: Ferryman_index_02_L
+    400072: Ferryman_index_02_R
+    400074: Ferryman_index_03_L
+    400076: Ferryman_index_03_R
+    400078: Ferryman_innerCheek_L
+    400080: Ferryman_innerCheek_R
+    400082: Ferryman_jaw
+    400084: Ferryman_jawSDK
+    400086: Ferryman_lipCorner_B_L
+    400088: Ferryman_lipCorner_B_R
+    400090: Ferryman_lipCorner_L
+    400092: Ferryman_lipCorner_R
+    400094: Ferryman_lipCorner_T_L
+    400096: Ferryman_lipCorner_T_R
+    400098: Ferryman_lowerarm_L
+    400100: Ferryman_lowerarm_R
+    400102: Ferryman_lowerarm_twist_01_L
+    400104: Ferryman_lowerarm_twist_01_R
+    400106: Ferryman_lowerEyeLid_L
+    400108: Ferryman_lowerEyeLid_R
+    400110: Ferryman_lowerLip
+    400112: Ferryman_lowerLip_B
+    400114: Ferryman_lowerLip_B_L
+    400116: Ferryman_lowerLip_B_R
+    400118: Ferryman_lowerLip_F
+    400120: Ferryman_lowerLip_F_L
+    400122: Ferryman_lowerLip_F_R
+    400124: Ferryman_lowerLip_L
+    400126: Ferryman_lowerLip_R
+    400128: Ferryman_mesh
+    400130: Ferryman_midBrows
+    400132: Ferryman_middle_01_L
+    400134: Ferryman_middle_01_R
+    400136: Ferryman_middle_02_L
+    400138: Ferryman_middle_02_R
+    400140: Ferryman_middle_03_L
+    400142: Ferryman_middle_03_R
+    400144: Ferryman_nasalLabialFold_L
+    400146: Ferryman_nasalLabialFold_R
+    400148: Ferryman_neck_01
+    400150: Ferryman_noseMain
+    400152: Ferryman_nostril_L
+    400154: Ferryman_nostril_R
+    400156: Ferryman_pelvis
+    400158: Ferryman_pinky_01_L
+    400160: Ferryman_pinky_01_R
+    400162: Ferryman_pinky_02_L
+    400164: Ferryman_pinky_02_R
+    400166: Ferryman_pinky_03_L
+    400168: Ferryman_pinky_03_R
+    400170: Ferryman_ring_01_L
+    400172: Ferryman_ring_01_R
+    400174: Ferryman_ring_02_L
+    400176: Ferryman_ring_02_R
+    400178: Ferryman_ring_03_L
+    400180: Ferryman_ring_03_R
+    400182: Ferryman_root
+    400184: Ferryman_skull
+    400186: Ferryman_spine_01
+    400188: Ferryman_spine_02
+    400190: Ferryman_spine_03
+    400192: Ferryman_tail_01
+    400194: Ferryman_tail_02
+    400196: Ferryman_tail_03
+    400198: Ferryman_tail_04
+    400200: Ferryman_tail_05
+    400202: Ferryman_temple_L
+    400204: Ferryman_temple_R
+    400206: Ferryman_thigh_L
+    400208: Ferryman_thigh_R
+    400210: Ferryman_thigh_twist_01_L
+    400212: Ferryman_thigh_twist_01_R
+    400214: Ferryman_thumb_01_L
+    400216: Ferryman_thumb_01_R
+    400218: Ferryman_thumb_02_L
+    400220: Ferryman_thumb_02_R
+    400222: Ferryman_thumb_03_L
+    400224: Ferryman_thumb_03_R
+    400226: Ferryman_underChin
+    400228: Ferryman_upperarm_L
+    400230: Ferryman_upperarm_R
+    400232: Ferryman_upperarm_twist_01_L
+    400234: Ferryman_upperarm_twist_01_R
+    400236: Ferryman_upperCheek_L
+    400238: Ferryman_upperCheek_R
+    400240: Ferryman_upperEyeLid_L
+    400242: Ferryman_upperEyeLid_R
+    400244: Ferryman_upperLip
+    400246: Ferryman_upperLip_B
+    400248: Ferryman_upperLip_B_L
+    400250: Ferryman_upperLip_B_R
+    400252: Ferryman_upperLip_F
+    400254: Ferryman_upperLip_F_L
+    400256: Ferryman_upperLip_F_R
+    400258: Ferryman_upperLip_L
+    400260: Ferryman_upperLip_R
+    2100000: lambert4
+    4300000: Ferryman_mesh
+    9500000: //RootNode
+    13700000: Ferryman_mesh
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Ferryman_pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_thigh_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_thigh_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_calf_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_calf_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_spine_03
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_neck_01
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_clavicle_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_clavicle_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_upperarm_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_upperarm_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_lowerarm_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_lowerarm_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_ball_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_ball_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_eye_L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_eye_R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_thumb_01_L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_thumb_02_L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_index_01_L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_index_02_L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_index_03_L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_middle_01_L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_middle_02_L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_ring_01_L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_ring_02_L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_ring_03_L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_pinky_01_L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_pinky_02_L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_pinky_03_L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_thumb_01_R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_thumb_02_R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_index_01_R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_index_02_R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_index_03_R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_middle_01_R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_middle_02_R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_ring_01_R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_ring_02_R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_ring_03_R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_pinky_01_R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_pinky_02_R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ferryman_pinky_03_R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: 4-8_GW_ferryman_humanoid(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_mesh
+      parentName: 4-8_GW_ferryman_humanoid(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_root
+      parentName: 4-8_GW_ferryman_humanoid(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_pelvis
+      parentName: Ferryman_root
+      position: {x: -0, y: 0.40381274, z: -0.0056157457}
+      rotation: {x: 0, y: 0, z: 0.27247837, w: 0.96216196}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_spine_01
+      parentName: Ferryman_pelvis
+      position: {x: 0.037554197, y: 0.060987193, z: -0.0028078728}
+      rotation: {x: 0, y: 0, z: -0.73651505, w: 0.67642117}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_spine_02
+      parentName: Ferryman_spine_01
+      position: {x: -0.07886045, y: 0.03975379, z: 0.009359576}
+      rotation: {x: 0, y: 0, z: 0.73651505, w: 0.67642117}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_spine_03
+      parentName: Ferryman_spine_02
+      position: {x: 0.046306174, y: 0.075200215, z: 0.035873268}
+      rotation: {x: -0.16611074, y: 0.04704153, z: -0.26838696, w: 0.94771457}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_clavicle_L
+      parentName: Ferryman_spine_03
+      position: {x: -0.048888426, y: 0.04658868, z: 0.018412527}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_upperarm_L
+      parentName: Ferryman_clavicle_L
+      position: {x: -0.04057409, y: 0.009918415, z: 0.0005506624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_upperarm_twist_01_L
+      parentName: Ferryman_upperarm_L
+      position: {x: 0.000000004620874, y: 0.000000026601535, z: -0.0000000013574534}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_lowerarm_L
+      parentName: Ferryman_upperarm_twist_01_L
+      position: {x: -0.106139235, y: 1.4210854e-16, z: -2.6645352e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_lowerarm_twist_01_L
+      parentName: Ferryman_lowerarm_L
+      position: {x: -0.06, y: 6.9199216e-19, z: -8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_hand_L
+      parentName: Ferryman_lowerarm_twist_01_L
+      position: {x: -0.08032298, y: -2.842171e-16, z: 1.7763568e-17}
+      rotation: {x: 0.000000029802312, y: -0.0021433637, z: 0.0059264507, w: 0.99998015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_index_01_L
+      parentName: Ferryman_hand_L
+      position: {x: -0.06709725, y: 0.008969, z: 0.015794694}
+      rotation: {x: -0.0023554086, y: 0.020801073, z: -0.14032145, w: 0.9898847}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_index_02_L
+      parentName: Ferryman_index_01_L
+      position: {x: -0.03253075, y: -0.008594067, z: -0.0007279274}
+      rotation: {x: 0.000010135758, y: -0.000014133445, z: 1.4325319e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_index_03_L
+      parentName: Ferryman_index_02_L
+      position: {x: -0.042076103, y: -0.01442753, z: -0.000691149}
+      rotation: {x: 0, y: 0.00006379892, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_middle_01_L
+      parentName: Ferryman_hand_L
+      position: {x: -0.06635723, y: 0.011682906, z: 0.0028457115}
+      rotation: {x: -0.0019594908, y: 0.035966422, z: -0.1933495, w: 0.9804685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_middle_02_L
+      parentName: Ferryman_middle_01_L
+      position: {x: -0.034917235, y: -0.013132114, z: -0.0020889367}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_middle_03_L
+      parentName: Ferryman_middle_02_L
+      position: {x: -0.036745902, y: -0.017229985, z: -0.0014228343}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_pinky_01_L
+      parentName: Ferryman_hand_L
+      position: {x: -0.060917094, y: 0.006643045, z: -0.020515196}
+      rotation: {x: -0.0024382323, y: 0.04369154, z: -0.23622797, w: 0.9707119}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_pinky_02_L
+      parentName: Ferryman_pinky_01_L
+      position: {x: -0.02467674, y: -0.011720669, z: -0.0019130991}
+      rotation: {x: 0.012027048, y: -0.022263493, z: -0.01873619, w: 0.9995042}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_pinky_03_L
+      parentName: Ferryman_pinky_02_L
+      position: {x: -0.022274923, y: -0.0130119575, z: 0.0011628994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_ring_01_L
+      parentName: Ferryman_hand_L
+      position: {x: -0.065051496, y: 0.009883438, z: -0.010236302}
+      rotation: {x: -0.0035382928, y: 0.02730536, z: -0.194607, w: 0.9804948}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_ring_02_L
+      parentName: Ferryman_ring_01_L
+      position: {x: -0.032964993, y: -0.012525476, z: -0.0011580992}
+      rotation: {x: 0.0016607889, y: -0.0005783308, z: -0.041018777, w: 0.9991569}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_ring_03_L
+      parentName: Ferryman_ring_02_L
+      position: {x: -0.028337961, y: -0.016393268, z: -0.0009162478}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_thumb_01_L
+      parentName: Ferryman_hand_L
+      position: {x: -0.043632686, y: -0.00831123, z: 0.02813143}
+      rotation: {x: -0.09893408, y: 0.29491264, z: -0.05144142, w: 0.9489955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_thumb_02_L
+      parentName: Ferryman_thumb_01_L
+      position: {x: -0.028640326, y: -0.009583953, z: 0.00013698453}
+      rotation: {x: 0.009353887, y: -0.02774783, z: 0.014344653, w: 0.9994683}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_thumb_03_L
+      parentName: Ferryman_thumb_02_L
+      position: {x: -0.020287832, y: -0.00536705, z: 0.0028473567}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_clavicle_R
+      parentName: Ferryman_spine_03
+      position: {x: 0.0488884, y: 0.046588253, z: 0.018412573}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_upperarm_R
+      parentName: Ferryman_clavicle_R
+      position: {x: 0.040574096, y: 0.009919, z: 0.00055059936}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_upperarm_twist_01_R
+      parentName: Ferryman_upperarm_R
+      position: {x: -1.7763568e-17, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_lowerarm_R
+      parentName: Ferryman_upperarm_twist_01_R
+      position: {x: 0.106139496, y: 4.2632563e-16, z: 0.0000000011727955}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_lowerarm_twist_01_R
+      parentName: Ferryman_lowerarm_R
+      position: {x: 0.06, y: 4.2632563e-16, z: 6.62974e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_hand_R
+      parentName: Ferryman_lowerarm_twist_01_R
+      position: {x: 0.080322996, y: 9.947598e-16, z: 8.875344e-10}
+      rotation: {x: 0.000000014901156, y: 0.0021437325, z: -0.0059275166, w: 0.9999802}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_index_01_R
+      parentName: Ferryman_hand_R
+      position: {x: 0.067097, y: 0.0089690145, z: 0.015794693}
+      rotation: {x: -0.002355381, y: -0.020800944, z: 0.14032237, w: 0.9898845}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_index_02_R
+      parentName: Ferryman_index_01_R
+      position: {x: 0.032530997, y: -0.008594002, z: -0.00072788406}
+      rotation: {x: 0.0000009052992, y: -0.0000053220983, z: 4.8180912e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_index_03_R
+      parentName: Ferryman_index_02_R
+      position: {x: 0.04207599, y: -0.014428003, z: -0.00069199514}
+      rotation: {x: 0.0000018105218, y: 0.00006379892, z: -1.1550933e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_middle_01_R
+      parentName: Ferryman_hand_R
+      position: {x: 0.066357, y: 0.011683002, z: 0.0028456901}
+      rotation: {x: -0.0019594696, y: -0.035966266, z: 0.19335137, w: 0.98046815}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_middle_02_R
+      parentName: Ferryman_middle_01_R
+      position: {x: 0.034916997, y: -0.013132003, z: -0.0020888757}
+      rotation: {x: 0.00000090526856, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_middle_03_R
+      parentName: Ferryman_middle_02_R
+      position: {x: 0.036746, y: -0.017230004, z: -0.0014227373}
+      rotation: {x: 0.0000018104757, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_pinky_01_R
+      parentName: Ferryman_hand_R
+      position: {x: 0.060917, y: 0.006642981, z: -0.020515205}
+      rotation: {x: -0.00243836, y: -0.04369097, z: 0.23623213, w: 0.9707108}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_pinky_02_R
+      parentName: Ferryman_pinky_01_R
+      position: {x: 0.024677, y: -0.011721003, z: -0.0019130785}
+      rotation: {x: 0.01202917, y: 0.022265058, z: 0.018740933, w: 0.9995041}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_pinky_03_R
+      parentName: Ferryman_pinky_02_R
+      position: {x: 0.022274, y: -0.013011996, z: 0.0011629473}
+      rotation: {x: 0.0000018104757, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_ring_01_R
+      parentName: Ferryman_hand_R
+      position: {x: 0.065051, y: 0.00988299, z: -0.010236308}
+      rotation: {x: -0.0035380437, y: -0.027305044, z: 0.19460185, w: 0.9804958}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_ring_02_R
+      parentName: Ferryman_ring_01_R
+      position: {x: 0.032965, y: -0.012525002, z: -0.0011580769}
+      rotation: {x: 0.0016619918, y: 0.0005789248, z: 0.041021693, w: 0.9991568}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_ring_03_R
+      parentName: Ferryman_ring_02_R
+      position: {x: 0.028338, y: -0.016393004, z: -0.00091614027}
+      rotation: {x: 0.0000018104757, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_thumb_01_R
+      parentName: Ferryman_hand_R
+      position: {x: 0.043632, y: -0.008310975, z: 0.028131409}
+      rotation: {x: -0.0989312, y: -0.29491228, z: 0.0514393, w: 0.948996}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_thumb_02_R
+      parentName: Ferryman_thumb_01_R
+      position: {x: 0.028640999, y: -0.009583999, z: 0.00013701766}
+      rotation: {x: 0.009354541, y: 0.027747495, z: -0.014344686, w: 0.99946827}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_thumb_03_R
+      parentName: Ferryman_thumb_02_R
+      position: {x: 0.020288, y: -0.00536699, z: 0.0028474196}
+      rotation: {x: 0.0000018104757, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_neck_01
+      parentName: Ferryman_spine_03
+      position: {x: -5.865462e-17, y: 0.08831383, z: 0.096403636}
+      rotation: {x: -0.25944734, y: 0.6577895, z: -0.25944725, w: 0.6577896}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: Ferryman_adamsApple
+      parentName: Ferryman_neck_01
+      position: {x: -0.051006954, y: -0.03950324, z: 0}
+      rotation: {x: 0.07046909, y: -0.70358664, z: 0.07046909, w: 0.70358664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_head
+      parentName: Ferryman_neck_01
+      position: {x: -0.06875465, y: -0.000000014222438, z: 2.1175821e-24}
+      rotation: {x: 0.4985056, y: 0.8668865, z: 1.9429663e-16, w: -2.1504429e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_brow_A_L
+      parentName: Ferryman_head
+      position: {x: 0.0034543206, y: -0.044733223, z: 0.012474817}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_brow_A_R
+      parentName: Ferryman_head
+      position: {x: 0.0034546857, y: -0.044733386, z: -0.0124748}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_brow_B_L
+      parentName: Ferryman_head
+      position: {x: 0.012066422, y: -0.037359446, z: 0.021828217}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_brow_B_R
+      parentName: Ferryman_head
+      position: {x: 0.012066735, y: -0.0373592, z: -0.0218282}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_brow_C_L
+      parentName: Ferryman_head
+      position: {x: 0.015799023, y: -0.022325968, z: 0.030689334}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_brow_C_R
+      parentName: Ferryman_head
+      position: {x: 0.015798735, y: -0.022326542, z: -0.0306893}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_cheek_L
+      parentName: Ferryman_head
+      position: {x: -0.026457734, y: -0.0007618632, z: 0.03903188}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_cheek_R
+      parentName: Ferryman_head
+      position: {x: -0.026457643, y: -0.0007619754, z: -0.039031897}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_ear_01_L
+      parentName: Ferryman_head
+      position: {x: 0.01607092, y: 0.019401113, z: 0.035541285}
+      rotation: {x: 0, y: -0, z: -0.02720247, w: 0.99963}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_ear_02_L
+      parentName: Ferryman_ear_01_L
+      position: {x: -0.03988221, y: -0.00020244694, z: 0.02362289}
+      rotation: {x: 0, y: 0, z: 0.04874024, w: 0.9988115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_ear_03_L
+      parentName: Ferryman_ear_02_L
+      position: {x: -0.037635874, y: 0.0019811103, z: 0.020103294}
+      rotation: {x: 0.42412302, y: 0.5657912, z: -0.42412302, w: 0.5657912}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_ear_01_R
+      parentName: Ferryman_head
+      position: {x: 0.016071169, y: 0.0194016, z: -0.0355413}
+      rotation: {x: 0, y: -0, z: -0.02720247, w: 0.99963}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_ear_02_R
+      parentName: Ferryman_ear_01_R
+      position: {x: -0.0398823, y: -0.0002028504, z: -0.023622898}
+      rotation: {x: 0, y: 0, z: 0.04874024, w: 0.9988115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_ear_03_R
+      parentName: Ferryman_ear_02_R
+      position: {x: -0.037636433, y: 0.0019813136, z: -0.0201033}
+      rotation: {x: 0.42412302, y: 0.5657912, z: -0.42412302, w: 0.5657912}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_eye_L
+      parentName: Ferryman_head
+      position: {x: -0.006745058, y: -0.025964193, z: 0.025606904}
+      rotation: {x: 0.41183054, y: 0.5748005, z: -0.41183054, w: 0.5748005}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_eye_R
+      parentName: Ferryman_head
+      position: {x: -0.0067448723, y: -0.025964407, z: -0.025606899}
+      rotation: {x: 0.41183054, y: 0.5748005, z: -0.41183054, w: 0.5748005}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_innerCheek_L
+      parentName: Ferryman_head
+      position: {x: -0.022557063, y: -0.035098657, z: 0.017215064}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_innerCheek_R
+      parentName: Ferryman_head
+      position: {x: -0.022557402, y: -0.035098635, z: -0.017215101}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_jaw
+      parentName: Ferryman_head
+      position: {x: -0.031992882, y: 1.5315942e-17, z: -2.9582282e-32}
+      rotation: {x: 0.8449826, y: 0.53479385, z: 3.274668e-17, w: 5.1740263e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_chin
+      parentName: Ferryman_jaw
+      position: {x: -0.06418307, y: 0.003032524, z: -6.2128514e-18}
+      rotation: {x: -0.26545203, y: -0.6553894, z: -0.26545203, w: 0.6553894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_jawSDK
+      parentName: Ferryman_jaw
+      position: {x: -0, y: -1.4210854e-16, z: -7.4941785e-32}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_lowerLip
+      parentName: Ferryman_jaw
+      position: {x: -0.07202256, y: 0.00063191436, z: -7.367532e-17}
+      rotation: {x: -3.6013832e-16, y: 1.8240043e-16, z: -0.59725857, w: 0.80204874}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_lowerLip_B
+      parentName: Ferryman_lowerLip
+      position: {x: -0.0024874944, y: 0.008265738, z: 6.4823386e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_lowerLip_F
+      parentName: Ferryman_lowerLip
+      position: {x: -0.0057721753, y: -1.1490808e-16, z: -1.8920474e-18}
+      rotation: {x: 0.35830703, y: 0.9336038, z: 1.5866687e-16, w: -2.4252846e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_lowerLip_L
+      parentName: Ferryman_jaw
+      position: {x: -0.069969855, y: 0.0019218957, z: -0.010076942}
+      rotation: {x: -0.091913275, y: 0.7011077, z: -0.55390584, w: 0.4395319}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_lowerLip_B_L
+      parentName: Ferryman_lowerLip_L
+      position: {x: -0.0070170485, y: 0.0032847007, z: 0.0037188935}
+      rotation: {x: 0.075171374, y: 0.7030997, z: 0.64157844, w: 0.2972829}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_lowerLip_F_L
+      parentName: Ferryman_lowerLip_L
+      position: {x: -0.0024983487, y: 0.00020729065, z: -0.0030217546}
+      rotation: {x: 0.075171374, y: 0.7030997, z: 0.64157844, w: 0.2972829}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_lowerLip_R
+      parentName: Ferryman_jaw
+      position: {x: -0.06996987, y: 0.0019216976, z: 0.010076899}
+      rotation: {x: -0.091913275, y: 0.7011077, z: -0.55390584, w: 0.4395319}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_lowerLip_B_R
+      parentName: Ferryman_lowerLip_R
+      position: {x: -0.0062003992, y: 0.0046457164, z: 0.003719}
+      rotation: {x: 0.075171374, y: 0.7030997, z: 0.64157844, w: 0.2972829}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_lowerLip_F_R
+      parentName: Ferryman_lowerLip_R
+      position: {x: -0.0013586461, y: 0.00210686, z: -0.0030219997}
+      rotation: {x: 0.075171374, y: 0.7030997, z: 0.64157844, w: 0.2972829}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_underChin
+      parentName: Ferryman_jaw
+      position: {x: -0.05298089, y: -0.0029118017, z: -3.1811437e-18}
+      rotation: {x: -0.26545203, y: -0.6553894, z: -0.26545203, w: 0.6553894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_lipCorner_L
+      parentName: Ferryman_head
+      position: {x: -0.028248658, y: -0.011545693, z: 0.03135583}
+      rotation: {x: -0.44932553, y: -0.54599136, z: -0.37249395, w: 0.6010393}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_lipCorner_B_L
+      parentName: Ferryman_lipCorner_L
+      position: {x: -0.0015561325, y: -0.0028878867, z: -0.0011731586}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_lipCorner_T_L
+      parentName: Ferryman_lipCorner_L
+      position: {x: -0.0018407115, y: 0.00045215272, z: -0.002867721}
+      rotation: {x: 0.44932553, y: 0.54599136, z: 0.37249395, w: 0.6010393}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_lipCorner_R
+      parentName: Ferryman_head
+      position: {x: -0.028248891, y: -0.01154583, z: -0.0313558}
+      rotation: {x: -0.44932553, y: -0.54599136, z: -0.37249395, w: 0.6010393}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_lipCorner_B_R
+      parentName: Ferryman_lipCorner_R
+      position: {x: 0.00073735876, y: -0.0031958898, z: -0.001173}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_lipCorner_T_R
+      parentName: Ferryman_lipCorner_R
+      position: {x: 0.0018947386, y: -0.00005014481, z: -0.002868}
+      rotation: {x: 0.44932553, y: 0.54599136, z: 0.37249395, w: 0.6010393}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_lowerEyeLid_L
+      parentName: Ferryman_head
+      position: {x: -0.01428681, y: -0.02390664, z: 0.03228755}
+      rotation: {x: 0.41183054, y: 0.5748005, z: -0.41183054, w: 0.5748005}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_lowerEyeLid_R
+      parentName: Ferryman_head
+      position: {x: -0.014287266, y: -0.023906602, z: -0.0322875}
+      rotation: {x: 0.41183054, y: 0.5748005, z: -0.41183054, w: 0.5748005}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_midBrows
+      parentName: Ferryman_head
+      position: {x: -0.0026805096, y: -0.047522083, z: 4.7484098e-17}
+      rotation: {x: 0.41183054, y: 0.5748005, z: -0.41183054, w: 0.5748005}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_nasalLabialFold_L
+      parentName: Ferryman_head
+      position: {x: -0.030107968, y: -0.0565362, z: 0.014977402}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_nasalLabialFold_R
+      parentName: Ferryman_head
+      position: {x: -0.030107459, y: -0.056536335, z: -0.0149774}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_noseMain
+      parentName: Ferryman_head
+      position: {x: -0.029269675, y: -0.07039065, z: 7.033439e-17}
+      rotation: {x: 0, y: -0, z: -0.09138694, w: 0.99581546}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_nostril_L
+      parentName: Ferryman_noseMain
+      position: {x: -0.0105719585, y: -1.0417489e-16, z: 0.010033164}
+      rotation: {x: 0, y: 0, z: 0.09138694, w: 0.99581546}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_nostril_R
+      parentName: Ferryman_noseMain
+      position: {x: -0.010571523, y: 0.00000008537865, z: -0.0100332}
+      rotation: {x: 0, y: 0, z: 0.09138694, w: 0.99581546}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_skull
+      parentName: Ferryman_head
+      position: {x: 0.01990122, y: -0.0032554015, z: 3.2527995e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_hat
+      parentName: Ferryman_skull
+      position: {x: 0.018214464, y: 0.0071677873, z: 1.2765657e-16}
+      rotation: {x: 0.41183054, y: 0.5748005, z: -0.41183054, w: 0.5748005}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_temple_L
+      parentName: Ferryman_head
+      position: {x: 0.009286564, y: -0.0025996305, z: 0.032914322}
+      rotation: {x: 0.41183054, y: 0.5748005, z: -0.41183054, w: 0.5748005}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_temple_R
+      parentName: Ferryman_head
+      position: {x: 0.009287047, y: -0.0025997295, z: -0.0329143}
+      rotation: {x: 0.41183054, y: 0.5748005, z: -0.41183054, w: 0.5748005}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_upperCheek_L
+      parentName: Ferryman_head
+      position: {x: -0.013375844, y: -0.00587467, z: 0.039244786}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_upperCheek_R
+      parentName: Ferryman_head
+      position: {x: -0.013375616, y: -0.0058746, z: -0.039244797}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_upperEyeLid_L
+      parentName: Ferryman_head
+      position: {x: 0.0045711393, y: -0.03293284, z: 0.024397906}
+      rotation: {x: 0.41183054, y: 0.5748005, z: -0.41183054, w: 0.5748005}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_upperEyeLid_R
+      parentName: Ferryman_head
+      position: {x: 0.004571041, y: -0.032932546, z: -0.0243979}
+      rotation: {x: 0.41183054, y: 0.5748005, z: -0.41183054, w: 0.5748005}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_upperLip
+      parentName: Ferryman_head
+      position: {x: -0.047959194, y: -0.06927406, z: 6.714794e-17}
+      rotation: {x: 0, y: -0, z: -0.11321041, w: 0.99357104}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_upperLip_B
+      parentName: Ferryman_upperLip
+      position: {x: -0.0059784525, y: 0.008860796, z: -1.469894e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_upperLip_F
+      parentName: Ferryman_upperLip
+      position: {x: -0.003216555, y: -0.00022090485, z: -1.4124515e-18}
+      rotation: {x: 0.3441095, y: 0.61772865, z: -0.3441095, w: 0.61772865}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_upperLip_L
+      parentName: Ferryman_head
+      position: {x: -0.035590325, y: -0.045039106, z: 0.020374928}
+      rotation: {x: 0, y: -0, z: -0.099678665, w: 0.9950197}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_upperLip_B_L
+      parentName: Ferryman_upperLip_L
+      position: {x: -0.005593116, y: 0.003982351, z: -0.004644759}
+      rotation: {x: 0, y: 0, z: 0.099678665, w: 0.9950197}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_upperLip_F_L
+      parentName: Ferryman_upperLip_L
+      position: {x: -0.004979706, y: 0.0013398568, z: -0.00027315808}
+      rotation: {x: 0, y: 0, z: 0.099678665, w: 0.9950197}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_upperLip_R
+      parentName: Ferryman_head
+      position: {x: -0.03559012, y: -0.045038726, z: -0.020374898}
+      rotation: {x: 0, y: -0, z: -0.099678665, w: 0.9950197}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_upperLip_B_R
+      parentName: Ferryman_upperLip_R
+      position: {x: -0.005593151, y: 0.003981991, z: 0.0046447}
+      rotation: {x: 0, y: 0, z: 0.099678665, w: 0.9950197}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_upperLip_F_R
+      parentName: Ferryman_upperLip_R
+      position: {x: -0.004979879, y: 0.0013398775, z: 0.0002731}
+      rotation: {x: 0, y: 0, z: 0.099678665, w: 0.9950197}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_tail_01
+      parentName: Ferryman_pelvis
+      position: {x: -0.013207201, y: -0.021448204, z: -0.016207397}
+      rotation: {x: 0, y: -0, z: -0.27247837, w: 0.96216196}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_tail_02
+      parentName: Ferryman_tail_01
+      position: {x: -0, y: -7.105427e-17, z: -0.14999999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_tail_03
+      parentName: Ferryman_tail_02
+      position: {x: -0, y: 0, z: -0.14999999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_tail_04
+      parentName: Ferryman_tail_03
+      position: {x: -0, y: 0, z: -0.14999999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_tail_05
+      parentName: Ferryman_tail_04
+      position: {x: -0, y: 7.105427e-17, z: -0.14999999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_thigh_L
+      parentName: Ferryman_pelvis
+      position: {x: -0.057398256, y: -0.000000011550203, z: -1.110223e-18}
+      rotation: {x: 0, y: 0, z: -0.73651505, w: 0.67642117}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_thigh_twist_01_L
+      parentName: Ferryman_thigh_L
+      position: {x: 0.055999998, y: -0.03, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_calf_L
+      parentName: Ferryman_thigh_twist_01_L
+      position: {x: 0.0536363, y: -0.028738406, z: 1.110223e-18}
+      rotation: {x: 0, y: 0, z: 0.73651505, w: 0.67642117}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_calf_twist_01_L
+      parentName: Ferryman_calf_L
+      position: {x: -0.04818576, y: -0.08488217, z: 1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_foot_L
+      parentName: Ferryman_calf_twist_01_L
+      position: {x: -0.05403077, y: -0.09428734, z: 0}
+      rotation: {x: 0, y: -0, z: -0.27247837, w: 0.96216196}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_ball_L
+      parentName: Ferryman_foot_L
+      position: {x: -0.0031394195, y: -0.03005912, z: 0.06677747}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_thigh_R
+      parentName: Ferryman_pelvis
+      position: {x: 0.025837472, y: -0.051253922, z: -0.000000004217148}
+      rotation: {x: 0, y: 0, z: -0.73651505, w: 0.67642117}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_thigh_twist_01_R
+      parentName: Ferryman_thigh_R
+      position: {x: 0.05742327, y: -0.02717695, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_calf_R
+      parentName: Ferryman_thigh_twist_01_R
+      position: {x: 0.055002864, y: -0.026026918, z: 0}
+      rotation: {x: 0.0000000071272552, y: 0.0000000077604465, z: 0.73651505, w: 0.67642117}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_calf_twist_01_R
+      parentName: Ferryman_calf_R
+      position: {x: -0.054105826, y: -0.08123715, z: 0.0000000017119449}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_foot_R
+      parentName: Ferryman_calf_twist_01_R
+      position: {x: -0.05987311, y: -0.090689875, z: 0.000000004613915}
+      rotation: {x: 0, y: -0, z: -0.27247837, w: 0.96216196}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ferryman_ball_R
+      parentName: Ferryman_foot_R
+      position: {x: 0.003139499, y: -0.030059095, z: 0.06677745}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
