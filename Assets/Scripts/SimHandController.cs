@@ -19,10 +19,14 @@ public class SimHandController : MonoBehaviour // This declares my script - the 
 
     public GameObject heldObject; // This will "remember" the object we are holding, so that we know what to let go of
 
+    public Animator anim; // This is a reference to the Animator component attached to the sim hand game object (3d model) - this is not a reference to the animator controller file*
+
     // Start is called before the first frame update
     void Start() 
     {
-       // Code
+        Cursor.lockState = CursorLockMode.Locked;
+
+        Cursor.visible = false;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -43,9 +47,20 @@ public class SimHandController : MonoBehaviour // This declares my script - the 
     {
         if(Input.GetKeyDown(KeyCode.Mouse1)) // Right mouse button - if pushed, then do the grab
         {
-            if (collidingObject != null)
+            anim.SetBool("Closed", true); // Makes the Closed parameter in the anim controller "true" - cause the close anim to run
+
+            if (collidingObject != null) // If we're touching a object 
             {
                 GrabObject();
+            }
+        }
+        else if(Input.GetKeyUp(KeyCode.Mouse1)) // Right mouse button - if released, then release the held object, if we have one!
+        {
+            anim.SetBool("Closed", false); // Makes the Closed parameter in the anim controller "false"
+
+            if (heldObject != null) // If we are in fact holding something
+            {
+                ReleaseObject();
             }
         }
 
@@ -119,8 +134,12 @@ public class SimHandController : MonoBehaviour // This declares my script - the 
         }
     }
 
-    void RichardsFunction() // White becuase it's a custom function
+    private void ReleaseObject()
     {
-        // I can put my code in here too
+        heldObject.transform.parent = null; // Un-parents the held object (i.e. makes it no longer a child of my hand - stops following my hand)
+
+        heldObject.GetComponent<Rigidbody>().isKinematic = false; // Let it respond to external forces (e.g. gravity and the floor)
+
+        heldObject = null; // Forget we are holding it (cause we aint no more)
     }
 }
