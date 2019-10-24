@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Session4_ScriptMovesCube.unity
+    guid: 4cd2938a23670564b947e961480530dd
   m_configObjects: {}
