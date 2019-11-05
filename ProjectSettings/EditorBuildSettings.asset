@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Session4_ScriptMovesCube.unity
-    guid: 4cd2938a23670564b947e961480530dd
+    path: Assets/Scenes/Session10_BasicArPlane.unity
+    guid: 69985f93d7e6a9a40bed0f2712ec98a3
   m_configObjects: {}
