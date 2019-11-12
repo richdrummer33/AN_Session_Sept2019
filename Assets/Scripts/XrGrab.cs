@@ -44,7 +44,7 @@ public class XrGrab : MonoBehaviour
     {
         if (Input.GetAxis(gripInputName) > 0.5f && gripIsPressed == false) // We want to check the grip button - on the moment it is pressed more than 50%, then execute the code within (to grab)
         {
-            // anim.SetBool("Closed", true); // Makes the Closed parameter in the anim controller "true" - cause the close anim to run
+            anim.SetBool("Closed", true); // Makes the Closed parameter in the anim controller "true" - cause the close anim to run
 
             if (collidingObject != null) // If we're touching a object 
             {
@@ -55,7 +55,7 @@ public class XrGrab : MonoBehaviour
         }
         else if (Input.GetAxis(gripInputName) < 0.5f && gripIsPressed == true) // Right mouse button - if released, then release the held object, if we have one!
         {
-            // anim.SetBool("Closed", false); // Makes the Closed parameter in the anim controller "false"
+            anim.SetBool("Closed", false); // Makes the Closed parameter in the anim controller "false"
 
             if (heldObject != null) // If we are in fact holding something
             {
