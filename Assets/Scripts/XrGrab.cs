@@ -24,7 +24,13 @@ public class XrGrab : MonoBehaviour
     // XR specific variables:
     private bool gripIsPressed = false;
 
-    public string gripInputName; // The name of the grip as per the Inputs setup in Project Settings
+    private bool triggerIsPressed = false; // Ensures Interact does not occur every frame when trigger is pulled (only once)
+
+    public string gripInputName; // The name of the grip as defined in the Inputs setup in Project Settings
+
+    public string triggerInputName; // The name of the trigger as defined in the Inputs setup in Project Settings 
+
+    private FixedJoint grabJoint; // This is the thing that will keep the heldObject in our hand
 
     private void OnTriggerEnter(Collider other)
     {
@@ -65,15 +71,17 @@ public class XrGrab : MonoBehaviour
             gripIsPressed = false; // Makes sure that the code in this "else if" statement executes only once when we let go of the grip
         }
 
-        // Keeping this (below) is OK! We can change this to shoot paintballs with the VR controller button instead of mouse 0
-
-        if (Input.GetKeyDown(KeyCode.Mouse0)) // GetKeyDown only activates *at the moment* which the key is pressed (in this case Mouse0, or the left mouse button)
+        if (Input.GetAxis(triggerInputName) > 0.5f && triggerIsPressed == false) // If the trigger just exceeded 50% pulled during this frame
         {
-            GameObject instance;
+            heldObject.SendMessage("Interact", SendMessageOptions.DontRequireReceiver); // SendMessage checks all components for a function named "Interact" - if the component (script) has function of this name, it will  
 
-            instance = Instantiate(prefab, this.transform.position, prefab.transform.rotation);
+            triggerIsPressed = true; // Ensure we only run this code once per trigger-pull!
+        }
+        else if (Input.GetAxis(triggerInputName) < 0.5f && triggerIsPressed == true) // If trigger is <50% pulled and we *just* passed the 50% threshold
+        {
+            heldObject.SendMessage("StopInteracting", SendMessageOptions.DontRequireReceiver);
 
-            instance.GetComponent<Rigidbody>().AddForce(transform.forward * 15f, ForceMode.Impulse);
+            triggerIsPressed = false; // Ensure we only run this code once per trigger-pull!
         }
     }
 
@@ -83,9 +91,17 @@ public class XrGrab : MonoBehaviour
 
         if (otherRigidbody != null) // If collidingObject does have a rigidbody
         {
-            collidingObject.transform.parent = this.transform;
+            grabJoint = gameObject.AddComponent<FixedJoint>(); // Create FixedJoint component on our hand and "remember" the joint 
 
-            otherRigidbody.isKinematic = true;
+            grabJoint.connectedBody = otherRigidbody; // Define the connected body (what we grabbing) - this offically performs the "grab" action
+
+            grabJoint.breakForce = 1000f; // Can tweak to your liking! Joint breaks when stressed beyond this amount of force (obj will drop)
+
+            grabJoint.breakTorque = 1000f; // Can tweak to your liking! Joint breaks when stressed beyond this amount of torque (obj will drop)
+
+            collidingObject.transform.parent = this.transform; // Made colliding obj a child so it follow
+
+            // otherRigidbody.isKinematic = true; // Does not respond to external forces
 
             heldObject = collidingObject; // Remember what we grabbed! For ReleaseObject() function (TBD)
         }
@@ -93,10 +109,18 @@ public class XrGrab : MonoBehaviour
 
     private void ReleaseObject()
     {
+        Destroy(grabJoint); // Destroys FixedJoint component on the hand - object falls to ground if held
+
         heldObject.transform.parent = null; // Un-parents the held object (i.e. makes it no longer a child of my hand - stops following my hand)
 
-        heldObject.GetComponent<Rigidbody>().isKinematic = false; // Let it respond to external forces (e.g. gravity and the floor)
+        // heldObject.GetComponent<Rigidbody>().isKinematic = false; // Let it respond to external forces (e.g. gravity and the floor)
 
         heldObject = null; // Forget we are holding it (cause we aint no more)
+    }
+
+    // This function/method is called automatically when the joint breaks due to force (exceeds breakForce or breakTorque)
+    private void OnJointBreak(float breakForce) 
+    {
+        heldObject.transform.parent = null; // Un-parents the held object (i.e. makes it no longer a child of my hand - stops following my hand)
     }
 }
