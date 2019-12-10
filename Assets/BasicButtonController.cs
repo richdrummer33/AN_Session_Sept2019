@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class BasicButtonController : MonoBehaviour
 {
-    public List<Rigidbody> carRigidbodies = new List<Rigidbody>();
-
     public Transform button; // Reference to the red button (the renderer)
 
     public Transform closedPosition; // Where to move button when pushed
@@ -13,7 +11,10 @@ public class BasicButtonController : MonoBehaviour
     Vector3 openPosition; // Remember original "open" position
 
     AudioSource source;
-    
+
+    public delegate void ButtonPressedEvent(); // Declaring the structure of a new delegate, which I've called ButtonPressedEvent. This is not an instance.
+    public ButtonPressedEvent OnButtonPress; // This is an instance of the delegate ButtonPressedEvent. Functions (from this script or other scripts) can "subscribe" to this delegate instance.
+
     void Start()
     {
         openPosition = button.position; // Take note of start positino before pressed!
@@ -27,20 +28,8 @@ public class BasicButtonController : MonoBehaviour
         button.position = closedPosition.position; // move the button!
 
         source.Play();
-                
-        //Step through each element in the list, and apply force
-        /*foreach(Rigidbody rb in carRigidbodies)
-        {
-            rb.AddForce(Vector3.left * 15f, ForceMode.Impulse); // Do something to "rb"
-            Debug.Log("rb: " + rb.gameObject.name);
-        }
 
-        for (int i = 0; i < carRigidbodies.Count; i++)
-        {
-            carRigidbodies[i].AddForce(Vector3.left * 15f, ForceMode.Impulse);
-            Debug.Log("index: " + i);
-        }
-        */
+        OnButtonPress(); // This is going to execute functions that have "subscribed" to OnButtonPress
     }
 
     // When hand (or any object with collider + Rigidbody) leaves button sense

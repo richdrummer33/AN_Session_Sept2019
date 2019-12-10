@@ -45,7 +45,7 @@ public class SimHandController : MonoBehaviour // This declares my script - the 
     // Update is called once per frame (typically 60 frames every second)
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Mouse1)) // Right mouse button - if pushed, then do the grab
+        if (Input.GetKeyDown(KeyCode.Mouse1)) // Right mouse button - if pushed, then do the grab
         {
             anim.SetBool("Closed", true); // Makes the Closed parameter in the anim controller "true" - cause the close anim to run
 
@@ -66,11 +66,23 @@ public class SimHandController : MonoBehaviour // This declares my script - the 
 
         if(Input.GetKeyDown(KeyCode.Mouse0)) // GetKeyDown only activates *at the moment* which the key is pressed (in this case Mouse0, or the left mouse button)
         {
-            GameObject instance; 
-
-            instance = Instantiate(prefab, this.transform.position, prefab.transform.rotation);
-
-            instance.GetComponent<Rigidbody>().AddForce(transform.forward * 15f, ForceMode.Impulse);
+            if (heldObject) // If we're in faact holding something
+            {
+                if (heldObject.GetComponent<InteractableObject>()) // 1: Check if this is an interactable object 
+                {
+                    heldObject.GetComponent<InteractableObject>().Interact(); // 2: if interactable, call the common "Interact" function. Replaces SendMessage.
+                }
+            }
+        }
+        else if (Input.GetKeyUp(KeyCode.Mouse0))
+        {
+            if (heldObject) // If we're in faact holding something
+            {
+                if (heldObject.GetComponent<InteractableObject>()) // 1: Check if this is an interactable object 
+                {
+                    heldObject.GetComponent<InteractableObject>().StopInteracting(); // 2: if interactable, call the common "Interact" function. Replaces SendMessage.
+                }
+            }
         }
 
         #region movement

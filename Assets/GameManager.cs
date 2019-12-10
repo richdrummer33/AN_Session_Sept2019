@@ -13,9 +13,11 @@ public class GameManager : MonoBehaviour
 
     public Text uiText; // To display num objects destroyed and timer
 
-    public float timeRemaining = 5; // Countdown timer - when reaches 0, player loses
+    public float timeRemaining = 30f; // Countdown timer - when reaches 0, player loses
 
     public List<GameObject> objectsToDestroy; // So we can check the object before counting up numObjectsDestroyed
+
+    public BasicButtonController resetButton; // When resetButton is pressed, will reset game
 
     public void ObjectDestroyed(GameObject objectThatWasDestroyed)
     {
@@ -31,6 +33,8 @@ public class GameManager : MonoBehaviour
         instance = this; // Fill the bucket (i.e. the instance variable, which starts off empty when declared) with the actual GameManager component in the scene (which is running during gameplay)
 
         numObjectsToDestroy = objectsToDestroy.Count;
+
+        resetButton.OnButtonPress += ResetGame; // Subscribe the ResetGame() function to the delegate
     }
 
     // Update is called once per frame
@@ -55,5 +59,10 @@ public class GameManager : MonoBehaviour
         {
             uiText.text = "Game over man!!";
         }
+    }
+
+    void ResetGame()
+    {
+        timeRemaining = 30f;
     }
 }

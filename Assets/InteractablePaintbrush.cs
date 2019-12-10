@@ -5,7 +5,7 @@ using UnityEngine;
 /// <summary>
 /// Interact and StopInteracting functions to be called by the hand (grab script) using SendMessage command
 /// </summary>
-public class InteractablePaintbrush : MonoBehaviour
+public class InteractablePaintbrush : InteractableObject
 {
     public GameObject paintTrailPrefab; // Prefab of the paint trail that will be drawn when we pull the trigger on the controller
 
@@ -15,8 +15,10 @@ public class InteractablePaintbrush : MonoBehaviour
 
     // A generically named function that can be called from our grab script (Xr or sim hand grab)
     // To be called on trigger-pull to start painting
-    private void Interact()
+    public override void Interact()
     {
+        base.Interact();
+
         if (paintMaterial != null) // Check that our brush has paint!
         {
             currentPaintTrail = Instantiate(paintTrailPrefab, transform.position, transform.rotation, transform); // Create paint trail that is child of paintbrush - will follow brush and paint!
@@ -25,8 +27,10 @@ public class InteractablePaintbrush : MonoBehaviour
     }
 
     // Stop painting, but don't delete it!
-    private void StopInteracting()
+    public override void StopInteracting()
     {
+        base.StopInteracting(); 
+
         currentPaintTrail.transform.SetParent(null); // Unparent so stops following the brush
     }
 

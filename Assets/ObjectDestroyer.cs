@@ -9,6 +9,6 @@ public class ObjectDestroyer : MonoBehaviour
     {
         GameManager.instance.ObjectDestroyed(other.gameObject); // Want to increment a tally of the destroyed objects (for the game) - call a function in the GameManager to increment the tally
 
-        Destroy(other.gameObject); // Destroy object that passes through
+        // Destroy(other.gameObject); // Destroy object that passes through
     }
 }

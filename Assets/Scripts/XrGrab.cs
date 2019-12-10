@@ -71,18 +71,34 @@ public class XrGrab : MonoBehaviour
             gripIsPressed = false; // Makes sure that the code in this "else if" statement executes only once when we let go of the grip
         }
 
+        #region Interact
+
         if (Input.GetAxis(triggerInputName) > 0.5f && triggerIsPressed == false) // If the trigger just exceeded 50% pulled during this frame
         {
-            heldObject.SendMessage("Interact", SendMessageOptions.DontRequireReceiver); // SendMessage checks all components for a function named "Interact" - if the component (script) has function of this name, it will  
+            if (heldObject) // If we're in faact holding something
+            {
+                if (heldObject.GetComponent<InteractableObject>()) // 1: Check if this is an interactable object 
+                {
+                    heldObject.GetComponent<InteractableObject>().Interact(); // 2: if interactable, call the common "Interact" function. Replaces SendMessage.
+                }
+            }
 
             triggerIsPressed = true; // Ensure we only run this code once per trigger-pull!
         }
         else if (Input.GetAxis(triggerInputName) < 0.5f && triggerIsPressed == true) // If trigger is <50% pulled and we *just* passed the 50% threshold
         {
-            heldObject.SendMessage("StopInteracting", SendMessageOptions.DontRequireReceiver);
+            if(heldObject) // If we're in faact holding something
+            {
+                if(heldObject.GetComponent<InteractableObject>()) // 1: Check if this is an interactable object 
+                {
+                    heldObject.GetComponent<InteractableObject>().Interact(); // 2: if interactable, call the common "Interact" function. Replaces SendMessage.
+                }
+            }
 
-            triggerIsPressed = false; // Ensure we only run this code once per trigger-pull!
+             triggerIsPressed = false; // Ensure we only run this code once per trigger-pull!
         }
+
+        #endregion
     }
 
     private void GrabObject()

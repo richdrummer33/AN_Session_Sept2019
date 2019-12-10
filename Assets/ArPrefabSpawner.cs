@@ -11,28 +11,30 @@ public class ArPrefabSpawner : MonoBehaviour
 
     private GameObject prefabInstance; // This will hold a reference to the prefab we created
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
-        Vector2 cameraCenter = Camera.current.ViewportToScreenPoint(new Vector3(0.5f, 0.5f, 0f)); // Get the center position of the screen - i.e. the point from which we raycast from
 
         List<ARRaycastHit> hits = new List<ARRaycastHit>(); // A variable to hold raycast info, i.e. to get the position in our 3d world that we hit (presumably on a plane)
-
-        raycastManager.Raycast(cameraCenter, hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon);  // Perform raycast - info dumped into "hits" 
-
-        if(Input.touchCount > 0) // If we are touching screen
+                
+        if(Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) // If we are touching screen
         {
-            if(hits.Count > 0) // Check that the raycast in fact did hit a collider
+            Vector3 touchPoint = Input.GetTouch(0).position;
+            touchPoint.z = 0f;
+            Vector2 cameraCenter = Camera.current.ViewportToScreenPoint(touchPoint); // Get the center position of the screen - i.e. the point from which we raycast from
+
+            if (raycastManager.Raycast(cameraCenter, hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))  // Perform raycast - info dumped into "hits" 
             {
-                if(prefabInstance == null) // If we haven't yet created an instance, make one
+                if (hits.Count > 0) // Check that the raycast in fact did hit a collider
                 {
-                    prefabInstance = Instantiate(prefab, hits[0].pose.position, prefab.transform.rotation);  // Create prefab on plane!
+                    if (prefabInstance == null) // If we haven't yet created an instance, make one
+                    {
+                        prefabInstance = Instantiate(prefab, hits[0].pose.position, prefab.transform.rotation);  // Create prefab on plane!
+                    }
+                    else
+                    {
+                        prefabInstance.transform.position = hits[0].pose.position;
+                    }
                 }
             }
         }
